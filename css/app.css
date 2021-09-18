@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+.nav{
+
+    padding: 10px 30px;
+    background-color: aqua;
+}
+.nav ul{
+    padding: 0;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.nav ul li a{
+    color: black;
+    transition: all .6s ease-in-out;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: gray;
+}
+.nav ul li a.active{
+    color: gray;
+}
+h2{
+    text-align: center;
+}
